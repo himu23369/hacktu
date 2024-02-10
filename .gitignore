@@ -1,0 +1,36 @@
+# Compiled python files
+*.pyc
+
+# Model files
+*.h5
+*.pth
+*.pkl
+*.pb
+*.onnx
+
+# Model checkpoints
+checkpoints/
+
+# Logs and output files
+logs/
+output/
+
+models/
+
+# Virtual environments
+venv/
+.env
+
+# Data files (if large)
+data/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+pose_deploy_linevec.prototxt/
+pose_iter_440000.caffemodel/
